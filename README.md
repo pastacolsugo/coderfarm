@@ -1,1 +1,2 @@
-# coderfarm
+# Coderfarm
+Learn. Code. Win

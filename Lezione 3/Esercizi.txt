@@ -1,0 +1,130 @@
+Parte A
+1- Scrivere un programma che legga un numero intero e lo ristampi subito dopo.
+	Es.
+		4
+		4
+
+2- Scrivere un programma che legga un numero intero e mi dica se è pari o dispari.
+	Es.	4
+		Pari
+
+3- Scrivere un programma che, inseriti due numeri, stampi la somma
+Es.	4 5
+	La somma é 9
+
+4- Riscrivere il 4) con la sottrazione.
+
+5- Riscrivere il 4) con la moltiplicazione.
+
+6- Indovina? Riscrivere il 4) con la divisione.
+
+7- Scrivere un programma che chieda all'utente di inserire due numeri interi e verificare se il primo è divisibile per il secondo.
+
+Eg 1. 
+>> 100 5
+>> Divisibile
+
+Eg 2.
+>> 23 2
+>> Non Divisibile
+
+
+8- Scrivere un programma che legga un numero intero N, crei un array con N componenti e chieda all'utente di inserirle. A inserimento completato stampare il contenuto del array.
+
+Eg.
+>> Inserisci la lunghezza dell'array: 5
+>> Inserisci i 5 valori: 10 20 30 40 50
+>> 10 20 30 40 50
+
+9- Ri-scrivere l'8), ma invece che stampare il contenuto del array, stampi la somma di tutte le componenti.
+
+Eg.
+>> Inserisci la lunghezza dell'array: 5
+>> 10 20 30 40 50
+>> 150
+
+10- Come il 9) ma con la sottrazione.
+Eg.
+>> Inserisci la lunghezza dell'array: 5
+>> 10 20 30 40 50
+>> -130
+
+
+Parte B
+1- Scrivere un programma che prenda in input la capienza del serbatoio della macchina e quanti chilometri si percorrono con un pieno. Calcolare il consumo di benzina al km.
+
+2- Scrivere un programma che prenda in input 8 voti scolastici (0 <= voto <= 10 ) e calcoli la media.
+
+3- Scrivere un programma che stampi la somma dei numeri da 1 a 1000.
+
+4- Scrivere un programma che preso in input un numero N, ne stampi a schermo la tabellina. (Nx0 = 0, Nx1 = N ...)
+>> Inserisci il numero: 5
+>> 0
+>> 5
+>> 10
+>> 15
+>> 20
+>> 25
+>> 30
+>> 35
+   ... fino a 50
+
+5- Rifare l'esercizio n°4, stampando anche l'operazione.
+	Es.
+>> Inserisci il numero: 5
+>> 5 x 0 = 0
+>> 5 x 1 = 5
+>> 5 x 2 = 10
+   ...
+
+6a- Scrivere un programma che prenda in input un numero N e stampi una linea di # con lato N
+Eg.
+>> Inserisci la lunghezza della linea: 6
+>> ######
+
+6- Scrivere un programma che prenda in input un numero N e stampi un quadrato di # con lato N
+Eg.
+>> Inserisci la lunghezza del lato: 3
+>> # # #
+>> # # #
+>> # # #
+
+7- Scrivere un programma che prenda in input un numero N e stampi una piramide di altezza N composta di #.
+eg.
+>> Inserisci N: 5
+>> #
+>> ##
+>> ###
+>> #### 
+>> #####
+
+7b- Uguale al 7, ma questa piramide (gradini larghi 2):
+N = 5
+#
+###
+#####
+#######
+#########
+
+8- Rifare l'esercizio 7, ma che stampi questa piramide.
+Es. N = 5
+
+#####
+####
+###
+##
+#
+
+9- Rifare l'esercizio 7 stampando questa piramide.
+Es. N = 5
+    #
+   ##
+  ###
+ ####
+#####
+
+
+
+10- Trovare l'elemento maggiore di un array di numeri.
+
+11- Trovare l'elemento maggiore pari di un array di numeri.

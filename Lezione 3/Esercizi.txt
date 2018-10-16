@@ -89,6 +89,7 @@ Eg.
 >> ###
 >> ###
 
+
 7- Scrivere un programma che prenda in input un numero N e stampi una piramide di altezza N composta di #.
 eg.
 >> Inserisci N: 5

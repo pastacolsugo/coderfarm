@@ -19,7 +19,7 @@ int main () {
 		massimo = lista[1];
 	}
 
-	for (int i=3; i<N; i++) {
+	for (int i=2; i<N; i++) {
 		if (massimo < lista[i]){
 			massimo = lista[i];
 		}

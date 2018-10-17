@@ -92,7 +92,15 @@ Eg.
 >> Inserisci la lunghezza della linea: 6
 >> ######
 
-6- Scrivere un programma che prenda in input un numero N e stampi un quadrato di # con lato N
+6b- Scrivere un programma che prenda in input un numero N e stampi una colonna di # con lato N
+Eg.
+>> Inserisci la lunghezza della linea: 4
+>> #
+>> #
+>> #
+>> #
+
+6c- Scrivere un programma che prenda in input un numero N e stampi un quadrato di # con lato N
 Eg.
 >> Inserisci la lunghezza del lato: 3
 >> ###
@@ -110,6 +118,7 @@ eg.
 >> #####
 
 7b- Uguale al 7, ma questa piramide (gradini larghi 2):
+Eg.
 N = 5
 #
 ###
@@ -118,13 +127,20 @@ N = 5
 #########
 
 8- Rifare l'esercizio 7, ma che stampi questa piramide.
-Es. N = 5
-
+Eg. N = 5
 #####
 ####
 ###
 ##
 #
+
+8b- Rifare l'esercizio 8, ma stampando degli uguali 
+Eg. N = 5
+=====
+====
+===
+==
+=
 
 9- Rifare l'esercizio 7 stampando questa piramide.
 Es. N = 5

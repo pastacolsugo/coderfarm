@@ -1,3 +1,13 @@
+LIGHTBOT
+
+Il primo esercizio per la prossima settimana e' un gioco. Si puo' usare nel browser o con l'app (sia Android che iOS).
+
+Proseguite con i livelli fino dove riuscite, ci sono tutti i tutorial per completare il gioco e ne siete in grado.
+
+Lo trovate a questo link:
+http://lightbot.com/hour-of-code.html
+
+
 Parte A
 1- Scrivere un programma che legga un numero intero e lo ristampi subito dopo.
 	Es.

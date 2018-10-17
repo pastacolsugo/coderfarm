@@ -1,0 +1,9 @@
+PSEUDO CODICE:
+SE il primo e' maggiore del secondo:
+	fisso il primo
+ALTRIMENTI
+	fisso il secondo
+
+ripeti da X=3 a X=N:
+	se X e' maggiore del numero fissato:
+		fisso X

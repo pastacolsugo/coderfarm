@@ -1,3 +1,4 @@
+// Testo del problema : https://training.olinfo.it/#/task/easy1/statement
 #include <iostream> 
 
 using namespace std;
@@ -27,18 +28,3 @@ int main () {
 
 	cout << "Il maggiore e': " << massimo << endl;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

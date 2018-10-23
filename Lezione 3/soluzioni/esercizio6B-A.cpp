@@ -6,7 +6,7 @@ int main() {
 	int N=0;
 	cin >> N;
 
-	for (int=0; i<N; i++) {
+	for (int i=0; i<N; i++) {
 		cout << "#";
 	}
 

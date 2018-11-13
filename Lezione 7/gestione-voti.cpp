@@ -25,6 +25,7 @@ int main () {
 		} else if (scelta == 2) {
 			if (numeroVoti >= 1000) {
 				cout << "Spazio esaurito\n";
+				continue;
 			}
 			cin >> voti[numeroVoti];
 			numeroVoti++;

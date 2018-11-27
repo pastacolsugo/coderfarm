@@ -1,24 +1,34 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
+vector <float> risultati;
+
 float somma (float a, float b) {
-	return a+b;
+	float ris = a+b;
+	risultati.push_back(ris);
+	return ris;
 }
 
 float sottrazione (float a, float b) {
-	return a-b;
+	float ris = a-b;
+	risultati.push_back(ris);
+	return ris;
 }
 
 float moltiplicazione (float a, float b) {
-	return a*b;
+	float ris = a*b;
+	risultati.push_back(ris);
+	return ris;
 }
 
 float divisione (float a, float b) {
-	return a/b;
+	float ris = a/b;
+	risultati.push_back(ris);
+	return ris;
 }
 
 float quadrato (float a) {
-	// return a*a;
 	return moltiplicazione(a, a);
 }
 
@@ -33,6 +43,8 @@ int main () {
 	 	cout << "3. Moltiplicazione" << endl;
 	 	cout << "4. Divisione" << endl;
 	 	cout << "5. Quadrato" << endl;
+	 	cout << "6. Stampa risultati" << endl;
+	 	cout << "7. Cancella risultati" << endl;
 	 	cout << "0. Esci" << endl;
 
 	 	cin >> operazioneScelta;
@@ -42,7 +54,7 @@ int main () {
  			return 0;
  		}
 
- 		if (operazioneScelta < 1 || operazioneScelta > 5) {
+ 		if (operazioneScelta < 1 || operazioneScelta > 7) {
  			// operazione non valida
  			cout << "operazione non valida" << endl;
  			continue;
@@ -78,7 +90,25 @@ int main () {
 	 			cout << "Inserisci la base: ";
 	 			cin >> a;
 	 			cout << "Quadrato: " << quadrato (a) << endl;
-	 	}
+	 			break;
+	 		case 6:
+	 			// stampa risultati
+	 			if (risultati.empty() == true) {
+	 				cout << "Non hai ancora fatto operazioni" << endl;
+	 			} else {
+		 			cout << "I risultati sono: ";
+		 			for (int i=0; i<risultati.size(); i++) {
+		 				cout << risultati[i];
+		 			}
+		 			cout << endl;
+		 		}
+	 			break;
+	 		case 7:
+	 			// cancella i risultati
+	 			risultati.clear();
+	 			cout << "Risultati cancellati" << endl;
+	 			break;
+	 	}	
 	}
 }
 

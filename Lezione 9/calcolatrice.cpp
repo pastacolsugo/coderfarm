@@ -109,7 +109,7 @@ int main () {
 	 			if (risultati.empty() == true) {
 	 				cout << "Non hai ancora fatto operazioni" << endl;
 	 			} else {
-		 			cout << "Le operazioni sono: ";
+		 			cout << "Le operazioni sono:" << endl;
 		 			for (int i=0; i<risultati.size(); i++) {
 		 				cout << operando1[i] << segno[i] << operando2[i];
 		 				cout << " = " << risultati[i] << endl;

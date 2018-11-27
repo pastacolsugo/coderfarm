@@ -46,7 +46,7 @@ float quadrato (float a) {
 }
 
 int main () {
-	int operazioneScelta = -1;
+	int operazioneScelta = 0;
 	float a, b;
 
 	while (true) {

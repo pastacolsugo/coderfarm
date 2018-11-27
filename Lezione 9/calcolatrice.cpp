@@ -2,28 +2,41 @@
 #include <vector>
 using namespace std;
 
-vector <float> risultati;
+vector <float> risultati, operando1, operando2;
+vector <char> segno;
 
 float somma (float a, float b) {
 	float ris = a+b;
+	operando1.push_back(a);
+	segno.push_back('+');
+	operando2.push_back(b);
 	risultati.push_back(ris);
 	return ris;
 }
 
 float sottrazione (float a, float b) {
 	float ris = a-b;
+	operando1.push_back(a);
+	segno.push_back('-');
+	operando2.push_back(b);
 	risultati.push_back(ris);
 	return ris;
 }
 
 float moltiplicazione (float a, float b) {
 	float ris = a*b;
+	operando1.push_back(a);
+	segno.push_back('*');
+	operando2.push_back(b);
 	risultati.push_back(ris);
 	return ris;
 }
 
 float divisione (float a, float b) {
 	float ris = a/b;
+	operando1.push_back(a);
+	segno.push_back('/');
+	operando2.push_back(b);
 	risultati.push_back(ris);
 	return ris;
 }
@@ -96,15 +109,19 @@ int main () {
 	 			if (risultati.empty() == true) {
 	 				cout << "Non hai ancora fatto operazioni" << endl;
 	 			} else {
-		 			cout << "I risultati sono: ";
+		 			cout << "Le operazioni sono: ";
 		 			for (int i=0; i<risultati.size(); i++) {
-		 				cout << risultati[i];
+		 				cout << operando1[i] << segno[i] << operando2[i];
+		 				cout << " = " << risultati[i] << endl;
 		 			}
 		 			cout << endl;
 		 		}
 	 			break;
 	 		case 7:
 	 			// cancella i risultati
+	 			operando1.clear();
+	 			operando2.clear();
+	 			segno.clear();
 	 			risultati.clear();
 	 			cout << "Risultati cancellati" << endl;
 	 			break;

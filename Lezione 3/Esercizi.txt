@@ -30,7 +30,7 @@ Es.	4 5
 
 7- Scrivere un programma che chieda all'utente di inserire due numeri interi e verificare se il primo è divisibile per il secondo.
 
-Eg 1. 
+Eg 1.
 >> 100 5
 >> Divisibile
 
@@ -61,9 +61,9 @@ Eg.
 
 
 Parte B
-1- Scrivere un programma che prenda in input la capienza del serbatoio della macchina e quanti chilometri si percorrono con un pieno. Calcolare il consumo di benzina al km.
+1- Scrivere un programma che prenda in input la capienza del serbatoio della macchina e quanti chilometri si percorrono con un pieno. Calcolare i km che percorri con 1 litro.
 
-2- Scrivere un programma che prenda in input 8 voti scolastici (0 <= voto <= 10 ) e calcoli la media.
+2- Scrivere un programma che prenda in input 8 voti scolastici (0 <= voto <= 10) e calcoli la media.
 
 3- Scrivere un programma che stampi la somma dei numeri da 1 a 1000.
 
@@ -87,12 +87,12 @@ Parte B
 >> 5 x 2 = 10
    ...
 
-6a- Scrivere un programma che prenda in input un numero N e stampi una linea di # con lato N
+6a- Scrivere un programma che prenda in input un numero N e stampi una linea di # di lunghezza N
 Eg.
 >> Inserisci la lunghezza della linea: 6
 >> ######
 
-6b- Scrivere un programma che prenda in input un numero N e stampi una colonna di # con lato N
+6b- Scrivere un programma che prenda in input un numero N e stampi una colonna di # di lunghezza N
 Eg.
 >> Inserisci la lunghezza della linea: 4
 >> #
@@ -107,14 +107,13 @@ Eg.
 >> ###
 >> ###
 
-
 7- Scrivere un programma che prenda in input un numero N e stampi una piramide di altezza N composta di #.
 eg.
 >> Inserisci N: 5
 >> #
 >> ##
 >> ###
->> #### 
+>> ####
 >> #####
 
 7b- Uguale al 7, ma questa piramide (gradini larghi 2):
@@ -134,7 +133,7 @@ Eg. N = 5
 ##
 #
 
-8b- Rifare l'esercizio 8, ma stampando degli uguali 
+8b- Rifare l'esercizio 8, ma stampando degli uguali
 Eg. N = 5
 =====
 ====

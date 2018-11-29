@@ -1,5 +1,5 @@
-// Scrivere un programma che chieda all'utente di inserire due 
-// numeri interi e verificare se 
+// Scrivere un programma che chieda all'utente di inserire due
+// numeri interi e verifichi se
 // il primo è divisibile per il secondo.
 #include <iostream>
 

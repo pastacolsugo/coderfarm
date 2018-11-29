@@ -1,5 +1,15 @@
 # Esercizio Lezione 9
 
+Nella cartella *soluzioni* puoi trovare la soluzione di questo esercizio, se riesci guardala solo dopo averlo svolto o se non sai come continuare.
+
+
+##### IMPORTANTE: 
+```
+Completare un punto della lista ed eseguire il programma.
+Capire che effetto ha avuto il codice che abbiamo scritto.
+```
+
+### Esercizio 1
 
 In un programma, dichiarare un `vector` di interi (guardare nel riassunto della lezione come si dichiara un vector).
 

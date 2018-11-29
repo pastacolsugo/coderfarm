@@ -1,5 +1,7 @@
 # Lezione 9
 
+Sopra trovate l'esercizio da fare per la prossima settimana.
+
 Abbiamo creato una calcolatrice con le seguenti operazioni:
 
 - Addizione

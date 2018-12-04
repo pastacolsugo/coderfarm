@@ -44,7 +44,7 @@ La caratteristica piu' importante dei vector e' che non sono a dimensione fissa,
 Per poter usare i `vector` devi includere la libreria apposita!
 
 ``` c++
-#inlcude <vector>
+#include <vector>
 ```
 
 #### Dichiarazione `vector`

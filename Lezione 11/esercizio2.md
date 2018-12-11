@@ -9,7 +9,7 @@ Quando l'utente inserisce il nodo, controlla che esista e stampa tutti i nodi co
 
 
 ```
-7 8
+7 9
 0 1    
 0 3
 3 1
@@ -18,12 +18,14 @@ Quando l'utente inserisce il nodo, controlla che esista e stampa tutti i nodi co
 4 5
 1 2
 2 6
+1 5
 
 Che nodo vuoi visualizzare?
 >> 5
 I nodi collegati al nodo 5 sono:
-1
+3
 4
+1
 ```
 
 #### Suggerimento

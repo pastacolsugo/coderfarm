@@ -20,7 +20,7 @@ Ogni collegamento e' rappresentato da due numeri, *p* e *a*:
 ### ESEMPIO
 
 ```
-7 8    // n nodi e c collegamenti
+7 9    // n nodi e c collegamenti
 0 1    // p partenza (0) e a arrivo (1) del primo collegamento
 0 3    // p partenza (0) e a arrivo (3) del secondo collegamento
 3 1
@@ -29,6 +29,7 @@ Ogni collegamento e' rappresentato da due numeri, *p* e *a*:
 4 5
 1 2
 2 6
+1 5
 ```
 
 #### Suggerimento

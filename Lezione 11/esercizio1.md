@@ -1,17 +1,17 @@
 # Esercizio 1 - Lezione 11
 
-Creare la lista di adiacenza come:
+Crea la lista di adiacenza come:
 
 ``` c++
 vector <vector <int> > grafo;
 ```
 
-Leggere i valori *n* e *c*, rispettivamente:
+Leggi i valori *n* e *c*, rispettivamente:
 
 - *n* numero dei nodi
 - *c* numero dei collegamenti
 
-Leggere tutti i *c* collegamenti e aggiungerli al grafo.
+Leggi tutti i *c* collegamenti e aggiungerli al grafo.
 Ogni collegamento e' rappresentato da due numeri, *p* e *a*:
 
 - *p* il nodo di partenza del collegamento
@@ -30,3 +30,7 @@ Ogni collegamento e' rappresentato da due numeri, *p* e *a*:
 1 2
 2 6
 ```
+
+#### Suggerimento
+
+Nella cartella della *Lezione 9* trovi le funzioni utili dei `vector`!

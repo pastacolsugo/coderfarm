@@ -10,6 +10,8 @@ int main () {
 
     cin >> n >> c;
 
+    grafo.resize(n);
+
     for (int i=0; i<c; i++) {
         int p, a;
         cin >> p >> a;

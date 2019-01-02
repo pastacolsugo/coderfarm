@@ -9,7 +9,7 @@ int main()
     int t = 10;
     while(t--){
         int n, temp, max = 0, sec = 0;
-        n = rand()%100 + 2;
+        n = rand()%10 + 2;
         cout << n << endl;
         while(n--){
             temp = rand()%1000;
@@ -17,6 +17,8 @@ int main()
             if(temp > max){
                 sec = max;
                 max = temp;
+            } else if(temp>sec){
+                sec = temp;
             }
         }
         cout << endl << max << ' ' << sec << endl;

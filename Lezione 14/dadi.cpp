@@ -25,15 +25,15 @@ void z (){
 }
 
 void T (){
-	cout << Z;
+	cout << Z << ' ';
 }
 
 void F (){
-	cout << Y;
+	cout << Y << ' ';
 }
 
 void R (){
-	cout << X;
+	cout << X << ' ';
 }
 
 int main (){
@@ -41,6 +41,8 @@ int main (){
 	// freopen ("output.txt", "w", stdout);
 
 	cin >> n; // leggo il numero dei comandi
+
+	cin >> c;
 
 	for (int i = 0; i < n; i++){ // per ogni comando
 		cin >> c; // leggo la singola lettera del comando

@@ -1,6 +1,8 @@
 #include <iostream>
 #include <stdio.h>
 
+using namespace std;
+
 int n, X=3, Y=2, Z=1, temp;
 char c;
 
@@ -40,7 +42,7 @@ int main (){
 
 	cin >> n; // leggo il numero dei comandi
 
-	for (int i = 0; i < N; i++){ // per ogni comando
+	for (int i = 0; i < n; i++){ // per ogni comando
 		cin >> c; // leggo la singola lettera del comando
 
 		switch (c){ // controllo la lettera
